@@ -1,0 +1,108 @@
+{
+	"textStyle": {
+    	"fontSize": "14"
+    },
+	"color": ["#ff916f", "#5effc8", "#fff55b"],
+    "tooltip" : {
+        "trigger": "axis",
+        "axisPointer" : {
+            "type" : "shadow"
+        }
+    },
+    "legend": {
+    	"data": [{
+    		"name": "2015年",
+    		"textStyle": {"color": "#fff"}
+    	},
+    	{
+    		"name": "2016年",
+    		"textStyle": {"color": "#fff"}
+    	},
+		{
+    		"name": "2017年",
+    		"textStyle": {"color": "#fff"}
+    	}],
+		"right": "10%",
+		"textStyle": {
+			"color": "white",
+			"fontSize": "16"
+		}
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis" : [
+		{
+		    "type" : "category",
+		    "data" : ["杀人", "放火", "抢劫", "故意伤害"],
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisTick": {
+		        "alignWithLabel": true
+		    }
+		}
+    ],
+    "yAxis" : [
+		{
+		    "type" : "value",
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    }
+		}     
+    ],
+    "series" : [
+        {	
+        	"name": "2015年",
+            "type":"bar",
+			"label": {
+				"normal": {
+					"show": true,
+					"position": "top"
+				}
+			},
+            "data":[52, 200, 251, 123]
+        },
+        {
+        	"name": "2016年",
+        	"type":"bar",
+			"label": {
+				"normal": {
+					"show": true,
+					"position": "top"
+				}
+			},
+            "data":[152, 210, 221, 103]
+        },
+        {
+        	"name": "2017年",
+        	"type":"bar",
+			"label": {
+				"normal": {
+					"show": true,
+					"position": "top"
+				}
+			},
+            "data":[152, 210, 221, 103]
+        }
+    ]
+}

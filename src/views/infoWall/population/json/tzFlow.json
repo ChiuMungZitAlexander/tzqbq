@@ -1,0 +1,52 @@
+{
+  "radar": {
+    "indicator": [], 
+    "shape": "circle", 
+    "name": {
+      "textStyle": {
+        "color": "rgb(238, 197, 102)",
+    	"fontSize": 16
+      }
+    }, 
+    "splitLine": {
+      "lineStyle": {
+        "color": [
+          "rgba(238, 197, 102, 0.1)", "rgba(238, 197, 102, 0.2)", 
+          "rgba(238, 197, 102, 0.4)", "rgba(238, 197, 102, 0.6)", 
+          "rgba(238, 197, 102, 0.8)", "rgba(238, 197, 102, 1)"
+        ]
+      }
+    }, 
+    "splitArea": {
+      "show": false
+    }, 
+    "axisLine": {
+      "lineStyle": {
+        "color": "rgba(238, 197, 102, 0.5)"
+      }
+    }
+  }, 
+  "series": [
+    {
+      "type": "radar", 
+      "lineStyle": {
+      		"normal": {
+              "width": 1, 
+              "opacity": 0.5
+          }
+      },
+      "data": [], 
+      "symbol": "none", 
+      "itemStyle": {
+        "normal": {
+          "color": "#dbc919"
+        }
+      }, 
+      "areaStyle": {
+        "normal": {
+          "opacity": 0.1
+        }
+      }
+    }
+  ]
+}

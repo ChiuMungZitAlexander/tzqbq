@@ -1,0 +1,20 @@
+{
+	"defaultWinW": 3654,
+	"defaultWinH": 914,
+	"loading": {
+		"bgFillStyle": "#fff",
+		"r": 100,
+		"progressBarW": 10,
+		"rFillStyle": "#e0e1e5",
+		"insideFillStyle": "#9eaec",
+		"progressBarFillStyle": ["#2c9ac8", "#7cebf6"],
+		"progressBarFont": {
+			"x": 0,
+            "y": 0,
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "fillStyle": "#333",
+            "font": "30px bold Microsoft YaHei"
+		}
+	}
+}

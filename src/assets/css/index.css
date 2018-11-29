@@ -1,0 +1,5 @@
+@import url('common/common.css');
+@import url('infoWall/population.css');
+@import url('infoWall/alarmAnalysis.css');
+@import url('infoWall/criminalAlarm.css');
+@import url('user/login.css');

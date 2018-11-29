@@ -1,0 +1,134 @@
+.tydic-grid{
+	width: 100%;
+	position: relative;
+}
+
+.tydic-grid .bodySection{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	overflow-x: auto;
+}
+.tydic-grid .table{
+	overflow: hidden;
+}
+.tydic-grid .table,
+.tydic-grid .table .thead,
+.tydic-grid .table .tbody,
+.tydic-grid .table .thead .tr,
+.tydic-grid .table .tbody .tr{
+	width: 100%;
+}
+
+.tydic-grid .table .thead,
+.tydic-grid .table .tbody {
+	display: inline-flex;
+    flex-direction: column;
+}
+
+.tydic-grid .table .thead .tr,
+.tydic-grid .table .tbody .tr{
+	display: inline-flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.tydic-grid .table .thead .tr .th,
+.tydic-grid .table .tbody .tr .td{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tydic-grid .table .tbody .tr .td.db{
+	display: block;
+}
+
+.tydic-grid .table .thead .tr.jcfs,
+.tydic-grid .table .tbody .tr.jcfs,
+.tydic-grid .table .thead .tr .th.jcfs,
+.tydic-grid .table .tbody .tr .td.jcfs{
+	justify-content: flex-start;
+}
+
+.tydic-grid .table .thead .tr.jcfe,
+.tydic-grid .table .tbody .tr.jcfe,
+.tydic-grid .table .thead .tr .th.jcfe,
+.tydic-grid .table .tbody .tr .td.jcfe{
+	justify-content: flex-end;
+}
+
+.tydic-grid .table .thead .tr:nth-child(n+2){
+    border-top: 1px dotted #ccc;
+}
+
+.tydic-grid .table .thead .th {
+  min-height: 45px;
+  background: #cfcfcf;
+  border-right: 1px solid #fff;
+  word-break: break-all;
+}
+
+.tydic-grid .table .tbody .tr {
+  min-height: min-content;
+  background: #fff;
+  border-bottom: 1px dotted #ccc;
+  height: auto;
+  overflow: hidden;
+}
+
+.tydic-grid .table .tbody .td {
+	background-color: #fff;
+	border-right: 1px solid #fff;
+	word-break: break-all;
+}
+
+.tydic-grid .table .tbody .td:first-child,
+.tydic-grid .table .thead .th:first-child {
+	border-left: 0;
+}
+
+.tydic-grid .table .tbody .td:last-child,
+.tydic-grid .table .thead .th:last-child {
+	border-right: 0;
+}
+
+.tydic-grid .table .tbody .td a {
+  margin: 5px;
+}
+
+.tydic-grid .table .tbody .tr:hover,
+.tydic-grid .table .tbody .tr:hover > .td {
+  background: #96c8f8;
+}
+
+.tydic-grid.noHover .table .tbody .tr:hover,
+.tydic-grid.noHover .table .tbody .tr:hover > .td {
+	background-color: #fff;
+}
+
+.tydic-grid.adaptiveWidth .table .tbody {
+	/*overflow-x: hidden;*/
+	flex-direction: column;
+}
+
+.tydic-grid.adaptiveWidth .table .thead,
+.tydic-grid.adaptiveWidth .table .thead .tr,
+.tydic-grid.adaptiveWidth .table .tbody,
+.tydic-grid.adaptiveWidth .table .tbody .tr{
+	width: auto;
+	justify-content: flex-start;
+	height: auto;
+}
+
+.tydic-grid.fixedHead .table .tbody {
+	
+}
+.tydic-grid .operates a {
+	margin: 0 !important;
+	margin-right: 10px !important;
+}
+.tydic-grid .operates a:last-child{
+	margin-right: 0 !important;
+}

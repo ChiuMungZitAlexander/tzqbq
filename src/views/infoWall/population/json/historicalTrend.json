@@ -1,0 +1,134 @@
+{
+	"textStyle": {
+    	"fontSize": "16"
+    },
+	"color": ["#e7d744", "#da5353", "#4992f9"],
+    "title": {
+        "color": "#fff"
+    },
+    "tooltip": {
+        "trigger": "axis",
+		"axisPointer": {
+			"type": "cross"
+		}
+    },
+    "legend": {
+    	"data": [{
+    		"name": "总人数",
+    		"textStyle": {"color": "#e7d744"}
+    	},
+    	{
+    		"name": "迁入数",
+    		"textStyle": {"color": "#da5353"}
+    	},
+    	{
+    		"name": "迁出数",
+    		"textStyle": {"color": "#4992f9"}
+    	}]
+    },
+    "grid": {
+        "right": "25%",
+		"left": "12%"
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+            "data": []
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "总人数",
+			"type": "value",
+			"position": "left",
+            "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#e7d744",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+            "splitLine": {
+            	"show": false
+        	}
+        },
+		{
+			"name": "迁入数",
+			"type": "value",
+			"position": "right",
+            "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#da5353",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+            "splitLine": {
+            	"show": false
+        	}
+		},
+		{
+			"name": "迁出数",
+			"type": "value",
+			"position": "right",
+			"offset": 60,
+            "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#4992f9",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+            "splitLine": {
+            	"show": false
+        	}
+		}
+    ],
+    "dataRage": {
+    	"color": ["#e7d744", "#da5353", "#4992f9"]
+    },
+    "series": [
+        {
+            "name": "总人数",
+            "type": "line",
+            "data": []
+        },
+        {
+            "name": "迁入数",
+            "type": "bar",
+			"barWidth": "30%",
+			"yAxisIndex": 1,
+            "data": []
+        },
+        {
+            "name": "迁出数",
+            "type": "bar",
+			"barWidth": "30%",
+			"yAxisIndex": 2,
+            "data": []
+        }
+    ]
+}

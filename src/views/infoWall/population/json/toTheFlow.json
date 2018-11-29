@@ -1,0 +1,61 @@
+{   
+	"textStyle": {
+    	"fontSize": "16"
+    },
+	"color": ["#3a4b69"],
+    "tooltip" : {
+        "axisPointer" : {
+            "type" : "shadow"
+        }
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis" : [
+		{
+		    "type" : "category",
+		    "data" : ["湖南省", "福建省", "四川省", "辽宁省", "甘肃省", "吉林省", "西藏省"],
+		    "axisTick": {
+		        "alignWithLabel": true
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    }
+		}  
+    ],
+    "yAxis" : [
+		{
+		    "type" : "value",
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    }
+		}
+    ],
+    "series" : [
+        {
+            "name": "",
+			"type":"bar",
+            "barWidth": "60%",
+            "data":[10, 52, 200, 334, 390, 330, 220]
+        }
+    ]
+}

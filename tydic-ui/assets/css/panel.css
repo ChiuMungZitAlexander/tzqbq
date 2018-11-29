@@ -1,0 +1,52 @@
+.tydic-panel .panel{
+	width: 100%;
+	height: auto;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.tydic-panel .panel-info{
+    border-color: #bce8f1;
+}
+.tydic-panel .panel .panel-heading{
+    padding: 0px 15px;
+    border-bottom: 1px solid transparent;
+    height: 40px;
+    line-height: 40px;
+}
+
+.tydic-panel .panel-info .panel-heading{
+	color: #000;
+    background-color: #93dfff;
+    border-color: #bce8f1;
+}
+
+.tydic-panel .panel .panel-heading .panel-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.tydic-panel .panel .panel-heading .panel-chevron {
+    float: right;
+    width: 22px;
+    height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tydic-panel .panel .panel-heading .panel-close {
+    background: url(../images/panel/arrowup.png) no-repeat;
+}
+
+.tydic-panel .panel .panel-heading .panel-open {
+    background: url(../images/panel/arrowdown.png) no-repeat;
+}
+
+.tydic-panel .panel .panel-body {
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+}

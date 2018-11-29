@@ -1,0 +1,80 @@
+{
+	"textStyle": {
+    	"fontSize": "20"
+    },
+	"color": ["#008fff", "#ffeb3d"],
+    "tooltip" : {
+        "trigger": "axis",
+        "axisPointer" : {
+            "type" : "shadow"
+        }
+    },
+    "legend": {
+    	"right": "5%",
+    	"data": [{
+    		"name": "城镇人口",
+    		"textStyle": {"color": "#fff"}
+    	},
+    	{
+    		"name": "农村人口",
+    		"textStyle": {"color": "#fff"}
+    	}]
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis" : [
+		{
+		    "type" : "category",
+		    "data" : ["2015年", "2016年"],
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisTick": {
+		        "alignWithLabel": true
+		    }
+		}
+    ],
+    "yAxis" : [
+		{
+		    "type" : "value",
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    }
+		}     
+    ],
+    "series" : [
+        {	
+        	"name": "城镇人口",
+            "type":"bar",
+            "barWidth": "20%",
+            "data":[52, 200]
+        },
+        {
+        	"name": "农村人口",
+        	"type":"bar",
+            "barWidth": "20%",
+            "data":[22, 20]
+        }
+        
+    ]
+}

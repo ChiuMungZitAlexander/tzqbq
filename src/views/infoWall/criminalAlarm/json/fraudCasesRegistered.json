@@ -1,0 +1,102 @@
+{
+	"color": ["#34b4ea"],
+	"tooltip": {
+		"trigger": "axis"
+	},
+	"xAxis": {
+		"type": "category",
+		"data": ["本周", "近一周", "近二周", "近三周", "近四周"],
+		"axisLine": {
+			"lineStyle": {
+				"color": "white"
+			}
+		},
+		"axisLabel": {
+			"textStyle": {
+				"color": "white",
+				"fontSize": "16"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"boundaryGap": false,
+		"splitLine": {
+			"show": true,
+			"lineStyle": {
+				"opacity": "0.3"
+			}
+		}
+	},
+	"yAxis": {
+		"type": "value",
+		"axisLine": {
+			"lineStyle": {
+				"color": "white"
+			}
+		},
+		"axisLabel": {
+			"textStyle": {
+				"color": "white",
+				"fontSize": "16"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"splitLine": {
+			"show": false
+		}
+	},
+	"series": [
+		{
+			"name": "",
+			"type": "line",
+			"data": ["28", "36", "75", "12", "28"],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "#34b4ea",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "#34b4ea"
+				}
+			},
+			"areaStyle": {
+            	"normal": {
+            		"color": "rgba(52, 180, 234, 0.4)"            	
+	            }
+	        },
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "#34b4ea"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "#34b4ea"
+					}
+				}
+			}
+		}
+	]
+}

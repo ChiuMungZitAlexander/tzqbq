@@ -1,0 +1,30 @@
+{
+	"textStyle": {
+    	"fontSize": "20"
+    },
+	"tooltip" : {
+        "trigger": "item",
+        "formatter": "{b} : {c} ({d}%)"
+    },
+    "calculable" : true,
+    "series" : [
+        {
+            "type":"pie",
+            "radius": ["0", "60%"],
+            "center" : ["50%", "50%"],
+            "roseType" : "radius",
+            "label": {
+                "normal": {
+                    "show": true
+                }
+            },
+            "lableLine": {
+                "normal": {
+                    "show": true
+                }
+            },
+            "data": []
+        }
+    ],
+    "color": ["#7157f6", "#f56161", "#f9af46", "#39cdf7", "#a3f13d", "#cd7af8", "#e7f233"]
+}

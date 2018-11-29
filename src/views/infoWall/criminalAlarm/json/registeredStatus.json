@@ -1,0 +1,208 @@
+{
+	"color": ["#15d863", "#f25f5b", "#5d9cfb"],
+	"tooltip": {
+		"trigger": "axis"
+	},
+	"legend": {
+		"data": [
+		    {
+		    	"name": "2015年"
+		    },
+			{
+		    	"name": "2016年"
+    		},
+			{
+		    	"name": "2017年"
+    		}
+		],
+		"right": "10%",
+		"textStyle": {
+			"color": "white",
+			"fontSize": "16"
+		},
+		"selected":{
+			"2015年": true,
+			"2016年": true,
+			"2017年": true
+		}
+	},
+	"xAxis": {
+		"type": "category",
+		"data": ["1月份", "2月份", "4月份", "6月份", "8月份"],
+		"axisLine": {
+			"lineStyle": {
+				"color": "white"
+			}
+		},
+		"axisLabel": {
+			"textStyle": {
+				"color": "white",
+				"fontSize": "16"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"boundaryGap": false,
+		"splitLine": {
+			"show": true,
+			"lineStyle": {
+				"opacity": "0.3"
+			}
+		}
+	},
+	"yAxis": {
+		"type": "value",
+		"axisLine": {
+			"lineStyle": {
+				"color": "white"
+			}
+		},
+		"axisLabel": {
+			"textStyle": {
+				"color": "white",
+				"fontSize": "16"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"splitLine": {
+			"show": false
+		}
+	},
+	"series": [
+		{
+			"name": "2015年",
+			"type": "line",
+			"data": ["28", "36", "75", "12", "28"],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "#15d863",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "#15d863"
+				}
+			},
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "#15d863"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "#15d863"
+					}
+				}
+			}
+		},
+		{
+			"name": "2016年",
+			"type": "line",
+			"data": ["2", "6", "7", "2", "8"],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "#f25f5b",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "#f25f5b"
+				}
+			},
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "#f25f5b"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "#f25f5b"
+					}
+				}
+			}
+		},
+		{
+			"name": "2017年",
+			"type": "line",
+			"data": ["20", "60", "17", "52", "58"],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "#5d9cfb",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "#5d9cfb"
+				}
+			},
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "#5d9cfb"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "#5d9cfb"
+					}
+				}
+			}
+		}
+	]
+}

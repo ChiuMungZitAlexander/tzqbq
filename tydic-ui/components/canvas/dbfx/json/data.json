@@ -1,0 +1,270 @@
+{
+	"resultSetStatus": {
+		"noClick": ["1", "2"]
+	},
+	"getAllTime": 5000,
+    "runStatusImages": [{
+    	"src": "static/img/src/assets/images/liuxiantu/icons.png",
+        "sx": 5,
+        "sy": 43,
+        "sw": 16,
+        "sh": 16,
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+    }, {
+    	"src": "static/img/src/assets/images/liuxiantu/icons.png",
+        "sx": 5,
+        "sy": 64,
+        "sw": 16,
+        "sh": 16,
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+    }, {
+    	"src": "static/img/src/assets/images/liuxiantu/icons.png",
+        "sx": 5,
+        "sy": 85,
+        "sw": 16,
+        "sh": 16,
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+    }, {
+    	"src": "static/img/src/assets/images/liuxiantu/icons.png",
+        "sx": 5,
+        "sy": 148,
+        "sw": 16,
+        "sh": 16,
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+    }, {
+   	 	"src": "static/img/src/assets/images/liuxiantu/icons.png",
+        "sx": 5,
+        "sy": 127,
+        "sw": 16,
+        "sh": 16,
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16
+    }],
+    "imagesParam": {
+        "inSec": {
+            "src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+            "sx": 5,
+            "sy": 101,
+            "sw": 80,
+            "sh": 53,
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 53
+        },
+        "pubOut": {
+            "src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+            "sx": 5,
+            "sy": 159,
+            "sw": 80,
+            "sh": 53,
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 53
+        },
+        "rightJoin": {
+            "src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+            "sx": 5,
+            "sy": 217,
+            "sw": 80,
+            "sh": 53,
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 53
+        },
+        "rightOut": {
+            "src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+            "sx": 5,
+            "sy": 275,
+            "sw": 80,
+            "sh": 53,
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 53
+        },
+        "leftJoin": {
+            "src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+            "sx": 5,
+            "sy": 333,
+            "sw": 80,
+            "sh": 53,
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 53
+        },
+        "leftOut": {
+            "src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+            "sx": 5,
+            "sy": 391,
+            "sw": 80,
+            "sh": 53,
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 53
+        },
+        "unionAll": {
+            "src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+            "sx": 5,
+            "sy": 449,
+            "sw": 80,
+            "sh": 53,
+            "x": 0,
+            "y": 0,
+            "w": 80,
+            "h": 53
+        },
+        "stopRun": {
+        	 "src": "static/img/src/assets/images/liuxiantu/40.png",
+            "sx": 0,
+            "sy": 0,
+            "sw": 24,
+            "sh": 24,
+            "x": 0,
+            "y": 0,
+            "w": 16,
+            "h": 16
+        },
+        "delete" : {
+        	"dataSource": {
+        		"src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+	            "sx": 5,
+	            "sy": 0,
+	            "sw": 124,
+	            "sh": 45,
+	            "x": 0,
+	            "y": 0,
+	            "w": 124,
+	            "h": 45
+        	},
+        	"resultSet": {
+        		"src": "static/img/tydic-ui/components/canvas/dbfx/images/icons.png",
+	            "sx": 5,
+	            "sy": 50,
+	            "sw": 97,
+	            "sh": 46,
+	            "x": 0,
+	            "y": 0,
+	            "w": 97,
+	            "h": 46
+        	}
+        }
+    },
+    "patterning": {
+        "dataSource": {
+            "w": 124,
+            "h": 45,
+            "arrowW": 15,
+            "fillStyle": ["#7186aa", "#48cfad", "#927fac"]
+        },
+        "topTriangle": {
+            "moveTo": [109, 0],
+            "lineTo": [[109, 21], [124, 21]]
+        },
+        "centerArea": {
+            "x": 109,
+            "y": 21,
+            "w": 15,
+            "h": 3
+        },
+        "bottomTriangle": {
+            "moveTo": [109, 24],
+            "lineTo": [[109, 45], [124, 24]]
+        },
+        "lineCircular": {
+            "x": 115,
+            "y": 23,
+            "r": 5,
+            "strokeStyle": "#fff",
+            "fillStyle": "#fff"
+        },
+        "closeLine": [{
+            "strokeStyle": "#fff",
+            "moveTo": [97, 5],
+            "lineTo": [104, 12]
+        }, {
+            "moveTo": [104, 5],
+            "lineTo": [97, 12]
+        }],
+        "resultSet": {
+            "strokeStyle": "#f4f4f4",
+            "fillStyles": ["#ff9933", "#ff9933", "#15b58d", "#d16f4c", "#d16f4c"],
+            "w": 100,
+            "h": 46,
+            "dataType": 5,
+            "radius": 5,
+            "lineCircular": {
+                "x": 88,
+                "y": 23,
+                "r": 5,
+                "strokeStyle": "#fff",
+                "fillStyle": "#fff"
+            },
+            "closeLine": [{
+                "strokeStyle": "#fff",
+                "moveTo": [88, 5],
+                "lineTo": [95, 12]
+            }, {
+                "moveTo": [95, 5],
+                "lineTo": [88, 12]
+            }]
+        }
+    },
+    "lineParam": {
+        "fillStyle": "#2a3342"
+    },
+    "fontParam": {
+    	"defaultText": {
+    		"textAlign": "center",
+            "textBaseline": "middle",
+            "fillStyle": "#000",
+            "font": "30px Microsoft YaHei"
+    	},
+    	"countDown": {
+		 	"textAlign": "center",
+            "textBaseline": "middle",
+            "fillStyle": "#000",
+            "font": "14px Microsoft YaHei"
+    	},
+        "title": {
+            "x": 54.5,
+            "y": 17,
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "fillStyle": "#fff",
+            "font": "14px Microsoft YaHei"
+        },
+        "countNumber": {
+            "x": 54.5,
+            "y": 35,
+            "textAlign": "center",
+            "textBaseline": "middle",
+            "fillStyle": "#fff",
+            "font": "12px Microsoft YaHei"
+        },
+        "conditions": {
+            "textAlign": "center",
+            "textBaseline": "bottom",
+            "fillStyle": "#333",
+            "font": "12px Microsoft YaHei"
+        }
+    }
+}

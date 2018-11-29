@@ -1,0 +1,111 @@
+{
+	"textStyle": {
+    	"fontSize": "14"
+    },
+	"color": ["#f1f33a", "#98e600", "#32f9df"],
+    "tooltip" : {
+        "trigger": "axis",
+        "axisPointer" : {
+            "type" : "shadow"
+        }
+    },
+    "legend": {
+    	"data": [{
+    		"name": "2015年",
+    		"textStyle": {"color": "#fff"}
+    	},
+    	{
+    		"name": "2016年",
+    		"textStyle": {"color": "#fff"}
+    	},
+		{
+    		"name": "2017年",
+    		"textStyle": {"color": "#fff"}
+    	}],
+		"right": "10%",
+		"textStyle": {
+			"color": "white",
+			"fontSize": "16"
+		}
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis" : [
+		{
+		    "type" : "category",
+		    "data" : ["海陵区", "高港区", "高新区", "泰兴市", "姜堰区", "兴化市", "靖江市"],
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisTick": {
+		        "alignWithLabel": true
+		    }
+		}
+    ],
+    "yAxis" : [
+		{
+		    "type" : "value",
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    }
+		}     
+    ],
+    "series" : [
+        {	
+        	"name": "2015年",
+            "type":"bar",
+            "barWidth": "22%",
+			"label": {
+				"normal": {
+					"show": true,
+					"position": "top"
+				}
+			},
+            "data":[52, 200, 251, 123, 111, 123, 111]
+        },
+        {
+        	"name": "2016年",
+        	"type":"bar",
+            "barWidth": "22%",
+			"label": {
+				"normal": {
+					"show": true,
+					"position": "top"
+				}
+			},
+            "data":[152, 210, 221, 103, 181, 173, 11]
+        },
+        {
+        	"name": "2017年",
+        	"type":"bar",
+            "barWidth": "22%",
+			"label": {
+				"normal": {
+					"show": true,
+					"position": "top"
+				}
+			},
+            "data":[152, 210, 221, 103, 181, 173, 11]
+        }
+    ]
+}

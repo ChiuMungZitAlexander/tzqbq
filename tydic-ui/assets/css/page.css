@@ -1,0 +1,23 @@
+.tydic-page .Pagination{ width: 100%; height: auto; overflow: hidden; text-align: center; padding: 10px 0px; color: #fff;}
+.tydic-page .Pagination.Page-btn{
+	display: flex;
+	justify-content: center;
+}
+.tydic-page .Page-btn span{ padding: 0px 10px 0px; background: #2c2c2c; line-height: 28px; cursor: pointer; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;  -ms-border-radius:3px ;  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);margin-right: 5px; }
+.tydic-page .Page-btn span:hover{background: #6fb3f3;}
+.tydic-page .Page-btn span.active{ background: #6fb3f3;}
+.tydic-page .Page-btn span.more{ background: none; color: #000; box-shadow: none;}
+.tydic-page .Page-btn span.unmore{ background: none; color: #999; box-shadow: none;}
+
+.tydic-page .page-font{ color: #337abd; text-align: left;}
+.tydic-page .page-font span{padding: 5px 10px 5px; color: #686868;}
+.tydic-page .page-font span em{ font-style: normal; padding: 0px 5px;}
+.tydic-page .page-font a{ color: #337abd; text-decoration: none;padding: 5px;}
+
+.tydic-page ul li{
+	float:left;
+}
+
+.tydic-page .Page-none {
+	justify-content: center; width: 100%; height: auto;overflow: hidden;text-align: center;padding: 0px 0px 10px 0px;border-bottom: 1px dashed #ccc;
+}

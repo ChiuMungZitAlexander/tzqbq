@@ -1,0 +1,161 @@
+{
+	"color": ["#ffc000", "#ec5979"],
+	"tooltip": {
+		"trigger": "axis"
+	},
+	"legend": {
+		"data": [
+		    {
+		    	"name": "接警数"
+		    },
+			{
+		    	"name": "违法犯罪警情数"
+    		}
+		],
+		"right": "10%",
+		"textStyle": {
+			"color": "white",
+			"fontSize": "16"
+		},
+		"selected":{
+			"接警数": true,
+			"违法犯罪警情数": true
+		}
+	},
+	"xAxis": {
+		"type": "category",
+		"data": ["0", "2", "4", "6", "8", "10", "12", "12", "14", "16", "18", "20", "22", "24"],
+		"axisLine": {
+			"lineStyle": {
+				"color": "white"
+			}
+		},
+		"axisLabel": {
+			"textStyle": {
+				"color": "white",
+				"fontSize": "16"
+			},
+			"rotate": 20
+		},
+		"axisTick": {
+			"show": false
+		},
+		"boundaryGap": false,
+		"splitLine": {
+			"show": true,
+			"lineStyle": {
+				"opacity": "0.3"
+			}
+		}
+	},
+	"yAxis": {
+		"type": "value",
+		"axisLine": {
+			"lineStyle": {
+				"color": "white"
+			}
+		},
+		"axisLabel": {
+			"textStyle": {
+				"color": "white",
+				"fontSize": "16"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"splitLine": {
+			"show": false
+		}
+	},
+	"series": [
+		{
+			"name": "接警数",
+			"type": "line",
+			"data": ["28", "36", "75", "12", "28", "36", "75", "12","28", "36", "75", "12"],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "#ffc000",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "#ffc000"
+				}
+			},
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "#ffc000"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "#ffc000"
+					}
+				}
+			}
+		},
+		{
+			"name": "违法犯罪警情数",
+			"type": "line",
+			"data": ["2", "6", "7", "2", "8", "6", "5", "1","8", "6", "7", "1"],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "#ec5979",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "#ec5979"
+				}
+			},
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "#ec5979"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "#ec5979"
+					}
+				}
+			}
+		}
+	]
+}

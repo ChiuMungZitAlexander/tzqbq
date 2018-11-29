@@ -1,0 +1,111 @@
+{
+	"color": ["LightGreen", "CornFlowerBlue", "Magenta", "Orange"],
+	"tooltip": {
+		"trigger": "axis",
+		"axisPointer": {
+			"type": "shadow"
+		}
+	},
+	"grid": {
+		"left": "20%"
+	},
+	"xAxis": [
+	    {
+	    	"type": "value",
+	    	"axisLine": {
+				"lineStyle": {
+					"color": "white"
+				}
+			},
+			"axisLabel": {
+				"textStyle": {
+					"color": "white",
+					"fontSize": "16"
+				}
+			},
+			"axisTick": {
+				"show": false
+			},
+			"splitLine": {
+				"show": true,
+				"lineStyle": {
+					"opacity": "0.3"
+				}
+			}
+	    }
+    ],
+	"yAxis": [
+        {
+        	"type": "category",
+        	"data": ["八大类警情", "两抢", "盗窃", "诈骗"],
+        	"axisLine": {
+    			"lineStyle": {
+    				"color": "white"
+    			}
+    		},
+    		"axisLabel": {
+    			"textStyle": {
+    				"color": "white",
+    				"fontSize": "16"
+    			}
+    		},
+    		"axisTick": {
+    			"show": false
+    		},
+    		"splitLine": {
+    			"show": false
+    		}
+		}
+	],
+	"series": [
+        {
+        	"name": "警情地区分布（当天）",
+        	"type": "bar",
+        	"barWidth": "60%",
+        	"label": {
+        		"normal": {
+        			"show": true,
+        			"position": "right",
+        			"textStyle": {
+        				"fontSize": "16"
+        			}
+        		}
+        	},
+        	"data": [
+    	        {
+    	        	"name": "八大类警情",
+    	        	"value": "221",
+    	        	"itemStyle": {
+    	        		"normal": {
+    	        			"color": "LightGreen"
+    	        		}
+    	        	}
+        		},{
+    	        	"name": "两抢",
+    	        	"value": "132",
+    	        	"itemStyle": {
+    	        		"normal": {
+    	        			"color": "CornFlowerBlue"
+    	        		}
+    	        	}
+        		},{
+    	        	"name": "盗窃",
+    	        	"value": "379",
+    	        	"itemStyle": {
+    	        		"normal": {
+    	        			"color": "Magenta"
+    	        		}
+    	        	}
+        		},{
+    	        	"name": "诈骗",
+    	        	"value": "290",
+    	        	"itemStyle": {
+    	        		"normal": {
+    	        			"color": "Orange"
+    	        		}
+    	        	}
+        		}
+        	]
+		}
+	]
+}

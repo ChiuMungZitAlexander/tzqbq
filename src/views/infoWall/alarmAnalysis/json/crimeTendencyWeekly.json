@@ -1,0 +1,161 @@
+{
+	"color": ["Red", "CornFlowerBlue"],
+	"tooltip": {
+		"trigger": "axis"
+	},
+	"legend": {
+		"data": [
+		    {
+		    	"name": "接警"
+		    },
+			{
+		    	"name": "处警"
+    		}
+		],
+		"right": "10%",
+		"textStyle": {
+			"color": "White",
+			"fontSize": "16"
+		},
+		"selected":{
+			"接警": true,
+			"处警": true
+		}
+	},
+	"xAxis": {
+		"type": "category",
+		"data": [],
+		"axisLine": {
+			"lineStyle": {
+				"color": "White"
+			}
+		},
+		"axisLabel": {
+			"interval": "0",
+			"textStyle": {
+				"color": "White",
+				"fontSize": "16"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"boundaryGap": false,
+		"splitLine": {
+			"show": true,
+			"lineStyle": {
+				"opacity": "0.3"
+			}
+		}
+	},
+	"yAxis": {
+		"type": "value",
+		"axisLine": {
+			"lineStyle": {
+				"color": "White"
+			}
+		},
+		"axisLabel": {
+			"textStyle": {
+				"color": "White",
+				"fontSize": "16"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"splitLine": {
+			"show": false
+		}
+	},
+	"series": [
+		{
+			"name": "接警",
+			"type": "line",
+			"data": [],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "Red",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "Red"
+				}
+			},
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "Red"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "Red"
+					}
+				}
+			}
+		},
+		{
+			"name": "处警",
+			"type": "line",
+			"data": [],
+			"smooth": "true",
+			"itemStyle": {
+				"normal": {
+					"color": "CornFlowerBlue",
+					"borderWidth": "5"
+				}
+			},
+			"lineStyle": {
+				"normal": {
+					"color": "CornFlowerBlue"
+				}
+			},
+			"markPoint": {
+				"data": [
+					{"type": "max", "name": "max"},
+					{"type": "min", "name": "min"}
+				],
+				"itemStyle": {
+					"normal": {
+						"color": "CornFlowerBlue"
+					}
+				}
+			},
+			"markLine": {
+				"data": [
+			        {"type": "average", "name": "平均值"}
+		        ],
+		        "label": {
+		        	"normal": {
+		        		"show": true,
+		        		"formatter": "均值\n{c}"
+		        	}
+		        },
+		        "lineStyle": {
+					"normal": {
+						"color": "CornFlowerBlue"
+					}
+				}
+			}
+		}
+	]
+}

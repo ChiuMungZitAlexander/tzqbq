@@ -1,0 +1,702 @@
+.infoWall .population {
+    width: 3654px;
+    height: 914px;
+   	position: relative;
+}
+
+.infoWall .population .logoImg {
+	background: url(../../images/population/logo.png);
+}
+
+.infoWall .population .changeBtnImg {
+	background: url(../../images/population/changeBtn.png);
+}
+
+.infoWall .population .layer {
+	width: 100%;
+	height: 100%;
+	background: url(../../images/population/bg.jpg) 100% 100% no-repeat;
+}
+
+.infoWall .population .main {
+    width: 3624px;
+    height: 894px;
+    background: url("../../images/population/mainbox.png") no-repeat;
+    background-size: cover;
+    margin:0px 15px;
+    position: relative;
+    z-index: 3;
+}
+
+.infoWall .population .main .title{
+    width: 1560px;
+    height: 157px;
+    margin: 0px auto;
+    position: relative;
+}
+.infoWall .population .main .title .t-left{
+    background: url("../../images/population/T-left.png") no-repeat;
+    width: 583px;
+    height: 188px;
+    position: absolute;
+    top: -26px;
+    left: -4px;
+    animation: t-left 5s ;
+}
+
+@keyframes t-left {
+    0% {
+        left: 580px;
+        opacity: 0;
+    }
+    100% {
+        left: -4px;
+        opacity: 1;
+    }
+}
+
+.infoWall .population .main .title .t-center{
+    background: url("../../images/population/T-center.png") no-repeat;
+    width: 610px;
+    height: 157px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.t-center{
+    color: #23fcf4;
+    text-align: left;
+    line-height: 130px;
+    font-size: 4.0rem;
+    position: relative;
+}
+
+.t-center .t-line{
+    background: url("../../images/population/T-line.png") no-repeat;
+    width: 436px;
+    height: 55px;
+    position: absolute;
+    top: 40px;
+    left: 85px;
+    animation: t-line 5s linear infinite;
+}
+
+@keyframes t-line {
+    0% {
+        top:40px;
+    }
+    25% {
+        top:50px;
+    }
+    50%{
+        top:40px;
+    }
+    75%{
+        top:30px;
+    }
+    100%{
+        top:40px;
+    }
+}
+
+.infoWall .population .t-center img{
+    float: left;
+    margin: 33px 0px 30px 103px;
+}
+
+.infoWall .population .main .title .t-right{
+    background: url("../../images/population/T-right.png") no-repeat;
+    width: 583px;
+    height: 188px;
+    position: absolute;
+    top: -26px;
+    right: 2px;
+    animation: t-right 5s ;
+}
+
+@keyframes t-right {
+    0% {
+        right: 580px;
+        opacity: 0;
+    }
+    100% {
+        right: 2px;
+        opacity: 1;
+    }
+}
+
+.infoWall .population .main .wrap{
+    width: 3463px;
+    height: 760px;
+    position: absolute;
+    top: 76px;
+    left: 79px;
+}
+
+.infoWall .population .main .wrap  .left-side{
+    width: 1170px;
+    height: 760px;
+}
+
+.infoWall .population .main .wrap .s-box{
+    background: url("../../images/population/s-box.png") no-repeat;
+    width: 572px;
+    height: 361px;
+    position: relative;
+}
+
+
+
+.infoWall .population .main .wrap .s-box .box-top-left {
+    background: url("../../images/population/tlb.png") no-repeat;
+    width: 36px;
+    height: 31px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: box-top-left 2s ;
+}
+@keyframes box-top-left {
+    0% {
+        opacity: 0;
+        top: 149px;
+        left: 251px;
+    }
+    100% {
+        opacity: 1;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.infoWall .population .main .wrap .s-box .box-top-right{
+    background: url("../../images/population/trb.png") no-repeat;
+    width: 35px;
+    height: 31px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    animation: box-top-right 2s ;
+}
+@keyframes box-top-right {
+    0% {
+        opacity: 0;
+        top: 149px;
+        left: 251px;
+    }
+    100% {
+        opacity: 1;
+        top: 0px;
+        right: 0px;
+    }
+}
+
+.infoWall .population .main .wrap .s-box .box-bottom-left{
+    background: url("../../images/population/blb.png") no-repeat;
+    width: 36px;
+    height: 31px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation: box-bottom-left 2s ;
+}
+@keyframes box-bottom-left {
+    0% {
+        opacity: 0;
+        bottom: 150px;
+        left: 251px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+.infoWall .population .main .wrap .s-box .box-bottom-right{
+    background: url("../../images/population/brb.png") no-repeat;
+    width: 35px;
+    height: 31px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    animation: box-bottom-right 2s ;
+}
+@keyframes box-bottom-right {
+    0% {
+        opacity: 0;
+        bottom: 150px;
+        right: 251px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+
+.infoWall .population .main .wrap .s-box .content{
+    width: 570px;
+    height: 349px;
+    position: relative;
+}
+
+.infoWall .population .main .wrap .s-box .content .changeBtn {
+	position: absolute;
+	right: 36px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.infoWall .population .main .wrap .s-box .content .ltzldrkfb1{
+	position: absolute;
+	top: 30px;
+	left: 32px;
+	width: 485px;
+	height: 320px;
+}
+
+.infoWall .population .main .tzPopulationMap{
+	position: absolute;
+	left: 57px;
+	top: 183px;
+	width: 380px;
+	height: 440px;
+}
+
+.infoWall .population .main .tzMapChart{
+	position: absolute;
+	left: 460px;
+	top: 183px;
+	width: 500px;
+	height: 440px;
+}
+
+.infoWall .population .main .wrap .s-box .content .title{
+    width: 100%;
+    height: 60px;
+    background: url("../../images/population/titleline.png") no-repeat 7px bottom;
+    font-size: 2.2rem;
+    color: #23fcf4;
+    line-height: 60px;
+    text-indent: 25px;
+    font-weight: bold;
+    animation: title 4s ;
+
+}
+@keyframes title {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.infoWall .population .main .wrap .s-box .content ul.tab{
+    width: 98.5%;
+    height: 55px;
+    margin:3px 5px;
+    line-height: 55px;
+    font-size: 2.2rem;
+    color: #23fcf4;
+    font-weight: bold;
+}
+
+.infoWall .population .main .wrap .s-box .content ul.tab li{
+    width: 50%;
+    height: 55px;
+    text-align: center;
+    border-width: 0px 3px 3px 0px;
+    border-color: #089a95;
+    border-style: solid;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.infoWall .population .main .wrap .s-box .content ul.tab li:last-child{
+    border-width: 0px 0px 3px 3px;
+}
+
+.infoWall .population .main .wrap .s-box .content ul.tab li.active{
+    border-width: 0px;
+}
+
+.infoWall .population .main .wrap .s-box .content .echart{
+    width: 98%;
+    height: 286px;
+    margin: 0px auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+}
+
+.infoWall .population .main .wrap .s-box .content .echart .date-wrap{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.infoWall .population .main .wrap .s-box .content .echart .date-wrap input{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 30px;
+    background: url("../../images/population/date.png") no-repeat 158px center #fff;
+    border-radius: 3px;
+    margin:20px 10px;
+    text-indent: 5px;
+}
+
+.infoWall .population .date-wrap span{
+    color: #01a1df;
+}
+
+.infoWall .population .date-wrap button{
+    width: 75px;
+    height: 30px;
+    color: #fff;
+    background: #10beb8;
+    border-radius: 3px;
+}
+
+.infoWall .population .main .wrap .s-box .content .echart img{
+    margin: 20px auto;
+}
+
+.infoWall .population .main .wrap .center-side{
+    background: url("../../images/population/b-box.png") no-repeat;
+    width: 1011px;
+    height: 668px;
+    float: left;
+    margin: 90px 0px 0px 56px;
+    position: relative;
+    text-align: center;
+
+}
+
+.infoWall .population .main .wrap .center-side .echart{
+    width: 977px;
+    height: 650px;
+    margin: 15px auto;
+    border-radius: 50px;
+}
+
+.infoWall .population .main .wrap .center-side .echart .num-wrap {
+    width: 930px;
+    height: 100px;
+    margin: 40px 33px 10px;
+}
+.infoWall .population .main .wrap .center-side .echart .num-wrap .person-data{
+    width: 310px;
+    height: 100px;
+    float: left;
+}
+.infoWall .population .person-data p{
+    font-size: 2.0rem;
+    color: #fff;
+    text-align: left;
+    line-height: 35px;
+}
+.infoWall .population .person-data ul li{
+    background: url("../../images/population/num-box.png") no-repeat;
+    width: 36px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    margin-left: -6px;
+    color: #fff;
+    font-size: 4.4rem;
+    text-align: center;
+}
+
+.infoWall .population .person-data ul li.dhao{
+    background: none;
+    width: 33px;
+    margin-left: -13px;
+}
+
+
+.infoWall .population .infoWall .population .main .wrap .center-side .line1{
+    background: url("../../images/population/line2.png") no-repeat;
+    width: 25px;
+    height: 228px;
+    position: absolute;
+    bottom: 22px;
+    left: -10px;
+    animation: line1 4s linear;
+}
+
+@keyframes line1 {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    90%{
+        opacity: 0.2;
+         }
+    100% {
+        opacity: 1;
+    }
+}
+
+.infoWall .population .main .wrap .center-side .line2{
+    background: url("../../images/population/line1.png") no-repeat;
+    width: 25px;
+    height: 228px;
+    position: absolute;
+    bottom: 73px;
+    right: -10px;
+    animation: line2 4s linear;
+}
+
+@keyframes line2 {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    90%{
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.infoWall .population  .mt60{
+    margin-top: 36px;
+}
+
+
+.infoWall .population  .round1{
+    background: url("../../images/population/round1.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 787px;
+    left:2272px;
+    animation: round1 4s linear infinite;
+}
+
+@keyframes round1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+}
+
+
+.infoWall .population  .round2{
+    background: url("../../images/population/round2.png") no-repeat 0px 1px;
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    top: 137px;
+    left: 1258px;
+    animation: round2 3s linear infinite;
+}
+
+@keyframes round2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+}
+
+
+.infoWall .population  .round3{
+    background: url("../../images/population/round3.png") no-repeat -1px 1px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 255px;
+    left: 1262px;
+    animation: round3 2.5s linear infinite;
+}
+
+@keyframes round3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+}
+
+.infoWall .population  .round4{
+    background: url("../../images/population/round4.png") no-repeat 2px -2px;
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 591px;
+    left: -90px;
+    animation: round4 2s linear infinite;
+}
+
+@keyframes round4 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+}
+
+.infoWall .population  .stone1{
+    background: url("../../images/population/stone2.png") no-repeat;
+    width: 23px;
+    height: 27px;
+    position: absolute;
+    top: 250px;
+    left: 27px;
+    animation: stone1 22s  linear infinite;
+}
+
+@keyframes stone1 {
+    0% {
+        top:250px;
+    }
+    25%{
+        top:200px;
+    }
+    50%{
+        top:300px;
+    }
+    60%{
+        top:270px;
+    }
+    70%{
+        top:300px;
+    }
+    80%{
+        top:290px;
+    }
+    100% {
+        top:250px;
+    }
+}
+
+.infoWall .population  .stone2{
+    background: url("../../images/population/stone3.png") no-repeat;
+    width: 23px;
+    height: 27px;
+    position: absolute;
+    top: 465px;
+    left: 2354px;
+    animation: stone2 25s   infinite;
+}
+@keyframes stone2 {
+    0% {
+        top:465px;
+    }
+    40%{
+        top:760px;
+    }
+    100% {
+        top:500px;
+        opacity: 0.9;
+    }
+}
+
+.infoWall .population  .stone3{
+    background: url("../../images/population/stone4.png") no-repeat;
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    top: 868px;
+    left: 2484px;
+    animation: stone3 29s  linear infinite;
+}
+
+@keyframes stone3 {
+    0% {
+        left:2484px;
+    }
+    40%{
+        left:3000px;
+    }
+    100% {
+        left:2484px;
+        opacity: 0.5;
+    }
+}
+
+.infoWall .population  .stone4{
+    background: url("../../images/population/stone.png") no-repeat;
+    width: 43px;
+    height: 41px;
+    position: absolute;
+    top: 465px;
+    left: 31px;
+    animation: stone4 21s  linear infinite;
+}
+
+@keyframes stone4 {
+    0% {
+        top:465px;
+    }
+    40%{
+        top:760px;
+    }
+    100% {
+        top:465px;
+        opacity: 0.5;
+    }
+}
+
+.infoWall .population  .stone5{
+    background: url("../../images/population/stone5.png") no-repeat;
+    width: 52px;
+    height: 53px;
+    position: absolute;
+    top: 448px;
+    left: 3575px;
+    animation: stone5 25s   infinite;
+}
+@keyframes stone5 {
+    0% {
+        top:448px;
+    }
+    40%{
+        top:760px;
+    }
+    100% {
+        top:448px;
+        opacity: 0.9;
+    }
+}
+
+.infoWall .population  #html5_3d_animation{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}

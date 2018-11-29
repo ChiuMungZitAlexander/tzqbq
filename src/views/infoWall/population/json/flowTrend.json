@@ -1,0 +1,69 @@
+{
+	"textStyle": {
+    	"fontSize": "16"
+    },
+	"color": ["#fff"],
+    "tooltip": {
+        "trigger": "axis"
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "boundaryGap": false,
+            "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+            "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+            "data": []
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+            "splitLine": {
+            	"show": true
+        	}
+        }
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "数量",
+            "data": [],
+            "lineStyle": {
+            	"normal": {
+            		"color": "#2b6ae9"            	
+	            }
+	        },	
+            "areaStyle": {
+            	"normal": {
+            		"color": "#2b6ae9"            	
+	            }
+	        }
+        }
+    ]
+}

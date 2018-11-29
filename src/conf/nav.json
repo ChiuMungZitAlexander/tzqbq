@@ -1,0 +1,35 @@
+[
+	{
+		"path": "login",
+		"component": "user/login"
+	}, {
+		"path": "user",
+		"component": "user/index"
+	}, {
+		"path": "infoWall/population",
+		"component": "infoWall/population/index"
+	}, {
+		"path": "infoWall/alarmAnalysis",
+		"component": "infoWall/alarmAnalysis/index"	
+	}, {
+		"path": "infoWall/criminalAlarm",
+		"component": "infoWall/criminalAlarm/index"	
+	}, {
+		"path": "user/edit/:id",
+		"component": "user/edit"
+	}, {
+		"path": "/",
+		"component": "default/index",
+		"label": "首页",
+		"comments": "首页"
+	}, {
+		"path": "403",
+		"component": "default/403",
+		"label": "没有权限访问当前页面"
+	}, {
+		"path": "*",
+		"component": "default/404",
+		"label": "资源未找到",
+		"comments": "这项配置一定要放到最后面"
+	}
+]

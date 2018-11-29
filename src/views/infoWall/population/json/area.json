@@ -1,0 +1,58 @@
+{
+	"color": ["#3a4b69"],
+    "tooltip" : {
+        "axisPointer" : {
+            "type" : "shadow"
+        }
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis" : [
+		{
+		    "type" : "category",
+		    "data" : [],
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    },
+		    "axisTick": {
+		        "alignWithLabel": true
+		    }
+		}  
+    ],
+    "yAxis" : [
+		{
+		    "type" : "value",
+		    "axisLine": {
+		    	"lineStyle": {
+		    		"color": "#fff",
+		    		"width": 2
+		    	}
+		    },
+		    "axisLabel": {
+		    	"textStyle": {
+		        	"fontSize": 16
+		        }
+		    }
+		}
+    ],
+    "series" : [
+        {
+            "name": "",
+			"type":"bar",
+            "barWidth": "60%",
+            "data":[]
+        }
+    ]
+}
