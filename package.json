@@ -2,7 +2,7 @@
   "name": "tzqbq",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Bing.Wu",
+  "author": "AlexanderZhao",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
